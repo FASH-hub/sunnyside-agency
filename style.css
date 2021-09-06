@@ -1,11 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: beige;
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .creative {
@@ -188,4 +190,28 @@ span {
 
 .ads img {
     width: 25%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: hsl(168, 34%, 41%);
+    padding: 10%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#title {
+    margin-left: 50%;
 }
