@@ -43,38 +43,6 @@ main {
     margin-right: 0px;
 }
 
-
-/*.creative {
-    display: grid;
-    grid-column: auto auto auto;
-
-}
-
-.creative span {
-    grid-row: 1;
-    grid-column: 1;
-    justify-content: start;
-}
-
-.creative nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    grid-row: 1;
-    grid-column: 3;
-}
-
-h1 {
-    grid-row: 2;
-    grid-column: 2;
-    margin-left: 20%;
-}
-
-.creative img {
-    grid-row: 3;
-    grid-column: 1/ span 3;
-}*/
-
 a {
     text-decoration: none;
 }
