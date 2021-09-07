@@ -1,5 +1,38 @@
 body {
-    background-color: beige;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+}
+
+header {
+    background-image: url("images/image-header.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
 main {
@@ -10,7 +43,8 @@ main {
     margin-right: 0px;
 }
 
-.creative {
+
+/*.creative {
     display: grid;
     grid-column: auto auto auto;
 
@@ -39,7 +73,7 @@ h1 {
 .creative img {
     grid-row: 3;
     grid-column: 1/ span 3;
-}
+}*/
 
 a {
     text-decoration: none;
