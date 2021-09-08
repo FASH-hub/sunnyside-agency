@@ -18,14 +18,22 @@ header {
     height: 100vh;
 }
 
-header nav li {
-    display: inline-block;
-    margin: 0 15px;
+@media screen and (max-width:768px) {
+    .rwd:hover .menu nav li {
+        display: block;
+    }
 }
 
-ul {
-    display: flex;
-    justify-content: space-around;
+@media screen and (min-width:768px) {
+    header nav li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 .top {
