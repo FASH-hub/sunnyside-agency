@@ -20,7 +20,7 @@ header {
 
 @media screen and (max-width:768px) {
 
-    header .menu {
+    /*header .menu {
         display: none;
     }
 
@@ -33,6 +33,9 @@ header {
 
     .rwd:hover .menu nav li {
         display: block;
+    }*/
+    .burger {
+        width: 50px;
     }
 }
 
@@ -46,6 +49,11 @@ header {
         display: flex;
         justify-content: space-around;
     }
+}
+
+.burger {
+    visibility: hidden;
+
 }
 
 .top {
